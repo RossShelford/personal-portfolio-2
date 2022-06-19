@@ -2,7 +2,7 @@ import React from 'react'
 
 function ProjectManagmentMethodology() {
   return (
-    <div>ProjectManagmentMethodology</div>
+    <section>ProjectManagmentMethodology</section>
   )
 }
 

@@ -6,7 +6,7 @@ import Skills from './components/Skills.jsx'
 import Projects from './components/Projects.jsx'
 import Clients from'./components/Clients.jsx'
 import ProjectManagmentMethodology from'./components/ProjectManagmentMethodology.jsx'
-import Footer from'./components/Footer.jsx'
+import Footer from'./components/Footer/Footer.jsx'
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));

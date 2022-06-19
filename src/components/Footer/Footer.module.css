@@ -1,0 +1,67 @@
+.footerMainContainer {
+    background-color: #82e9cf;
+    padding: 10px 20px 10px 20px;
+
+}
+
+.footerMainContent{
+    padding: 10px 40px;
+    display: flex;
+    flex-direction: column;
+}
+
+.LetsChatContainer{
+    display: flex;
+    align-items: stretch;
+}
+
+.letsChat{
+    color: #030439;
+    font-size: xx-large;
+    text-decoration: underline;
+    text-underline-offset: 3px;
+    text-decoration-thickness: 2px;
+    cursor: pointer;
+}
+
+.mailMe {
+    cursor: pointer;
+    color: #030439;
+    text-decoration: none;
+}
+
+.downloadCV {
+    color: #030439;
+    padding-top: 30px;
+    padding-bottom: 10px;
+    font-weight: 400;
+    text-decoration: underline;
+    text-underline-offset: 1px;
+    text-decoration-thickness: 1px;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+.bottomBarContent { 
+    padding: 7px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.bottomBarLine {
+    border-top: solid #8F8F8F;
+    border-width: 1px 0px 0px 0px;
+}
+
+.bottomBarText{
+    color: #686868;
+    font-size: small;
+}
