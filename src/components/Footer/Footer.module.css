@@ -15,41 +15,21 @@
     align-items: stretch;
 }
 
-.letsChat{
-    color: #030439;
-    font-size: xx-large;
-    text-decoration: underline;
-    text-underline-offset: 3px;
-    text-decoration-thickness: 2px;
-    cursor: pointer;
+
+
+.contentGrid {
+    display: grid;
+    column-gap: 1.5rem;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 
-.mailMe {
-    cursor: pointer;
-    color: #030439;
-    text-decoration: none;
-}
-
-.downloadCV {
-    color: #030439;
-    padding-top: 30px;
-    padding-bottom: 10px;
-    font-weight: 400;
-    text-decoration: underline;
-    text-underline-offset: 1px;
-    text-decoration-thickness: 1px;
-    cursor: pointer;
+.sectionText{
+    display: flex;
+    flex-direction: column;
 }
 
 
-
-
-
-
-
-
-
-
+/* Copyright Bottom Bar */
 .bottomBarContent { 
     padding: 7px;
     display: flex;
