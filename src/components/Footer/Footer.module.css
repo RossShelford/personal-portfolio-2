@@ -1,36 +1,70 @@
-/* Utility Classes */
-.title{
-    font-family: poppins;
-    font-size: 16px;
-    font-weight: 600;
-}
-
-
 .footerMainContainer {
     background-color: #82e9cf;
     padding: 10px 20px 10px 20px;
-    flex: auto;
-
 }
 
-.contentGrid {
-    margin-left: 5%;
-    margin-right: 5%;
+.subContentContainer {
+    margin: 3%;
+    padding: 5%;
     display: flex;
     gap: 50px;
     justify-items: center;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    max-width: 800px;
     align-self: center;
 }
 
-.sectionText{
+.textSectionContainer{
+display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+
+.title{
+    font-family: poppins;
+     font-size: 16px;
+     font-weight: 600;
+ } 
+
+ ul{
+    padding: 0;
+    border: 0;
+    margin-bottom: 5px;
+    cursor: default;
+ }
+
+ li {
+    cursor: pointer;
+    list-style-type: none;
+    background: linear-gradient(0deg, slateblue, slateblue) no-repeat right bottom / 0 var(--bg-h);
+    transition: background-size 350ms;
+    --bg-h: 100%;
+  }
+  li:where(:hover, :focus-visible) {
+    background-size: 100% var(--bg-h);
+    background-position-x: left;
+  }
+  
+  .underline {
+    --bg-h: 2px;
+  }
+
+
+
+
+/* Buttons Container */
+
+.sectionBtn{
     display: flex;
+    justify-content: center;
+    align-items: center;
     flex-direction: column;
 }
 
+
 /* Copyright Bottom Bar */
+
 .bottomBarContent { 
     padding: 7px;
     display: flex;
