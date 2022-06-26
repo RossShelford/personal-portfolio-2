@@ -9,10 +9,10 @@ function Skills() {
   return (
     <section className={styles.skillsMainContainer}>
         <h1>Skills</h1>
-        <h3 className={styles.paddingBottom50px}>Some skills that I have aquired over the years</h3>
+        <h3 className={styles.paddingBottom50px}>Knowledge of some software that I have aquired over the years</h3>
         <TextDivider text={'PROJECT MANAGEMENT'}/>
         <div className={styles.logoContainer}>
-          {data.map((item) => {
+          {data[0].map((item) => {
             return (
               <a href={item.url} target="_blank" rel="noreferrer">
               <img className={styles.logoWide} key={item.image} src={item.image} alt='img'/>
@@ -20,8 +20,23 @@ function Skills() {
           )})}
         </div>
         <TextDivider text={'DESIGN'}/>
-        
+        <div className={styles.logoContainer}>
+          {data[1].map((item) => {
+            return (
+              <a href={item.url} target="_blank" rel="noreferrer">
+              <img className={styles.logoWide} key={item.image} src={item.image} alt='img'/>
+              </a>
+          )})}
+        </div>
         <TextDivider text={'DEVELOPMENT'}/>
+        <div className={styles.logoContainer}>
+          {data[2].map((item) => {
+            return (
+              <a href={item.url} target="_blank" rel="noreferrer">
+              <img className={styles.logoIcon} key={item.image} src={item.image} alt='img'/>
+              </a>
+          )})}
+        </div>
     </section>
   )
 }
