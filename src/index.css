@@ -26,3 +26,15 @@ h3 {
   margin: 0;
   padding: 0;
 }
+
+h4 {
+  all: unset;
+  letter-spacing: 2px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1em;
+  color: #2E2E39;
+  margin: 0;
+  padding: 0;
+}
