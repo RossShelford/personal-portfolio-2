@@ -1,0 +1,4 @@
+.skillsMainContainer {
+    display: flex;
+    flex-direction: column;
+}

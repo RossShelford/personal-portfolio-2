@@ -5,3 +5,24 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+h1 {
+  all: unset;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 2.5em;
+  color: #2E2E39;
+  margin: 0;
+  padding: 0;
+}
+
+h3 {
+  all: unset;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.4em;
+  color: #2E2E39;
+  margin: 0;
+  padding: 0;
+}

@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import Hero from './components/Hero.jsx'
-import Skills from './components/Skills.jsx'
+import Skills from './components/Skills/Skills.jsx'
 import Projects from './components/Projects.jsx'
 import Clients from'./components/Clients.jsx'
 import ProjectManagmentMethodology from'./components/ProjectManagmentMethodology.jsx'
