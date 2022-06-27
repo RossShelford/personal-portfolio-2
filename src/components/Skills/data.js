@@ -8,7 +8,6 @@ import adobe from './images/design/adobe.png'
 import sketch from './images/design/sketch.png'
 import procreate from './images/design/procreate.png'
 
-
 import css from './images/development/css.png'
 import html from './images/development/html.png'
 import git from './images/development/git.png'
@@ -16,9 +15,6 @@ import js from './images/development/js.png'
 import react from './images/development/react.png'
 import three from './images/development/three.png'
 import tailwind from './images/development/tailwind.png'
-
-
-
 
 const data = [
     [

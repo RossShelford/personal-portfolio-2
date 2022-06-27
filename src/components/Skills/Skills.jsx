@@ -9,7 +9,7 @@ function Skills() {
   return (
     <section className={styles.skillsMainContainer}>
         <h1>Skills</h1>
-        <h3 className={styles.paddingBottom50px}>Knowledge of some software that I have aquired over the years</h3>
+        <h3 className='paddingBottom50px'>Knowledge of some software that I have aquired over the years</h3>
         <TextDivider text={'PROJECT MANAGEMENT'}/>
         <div className={styles.logoContainer}>
           {data[0].map((item) => {

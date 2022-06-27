@@ -38,3 +38,33 @@ h4 {
   margin: 0;
   padding: 0;
 }
+
+
+
+body::-webkit-scrollbar
+{
+	width: 12px;
+	background-color: #F5F5F5;
+}
+
+body::-webkit-scrollbar-thumb
+{
+	border-radius: 10px;
+	background-color: #cacaca;
+}
+
+.mainDivider {
+  border:none;
+  height: 20px;
+ 	width: 90%;
+	height: 50px;
+	margin-top: 0;
+	border-bottom: 1px solid #bebebe;
+	box-shadow: 0px 20px 20px -20px rgb(190, 190, 190);
+  margin: -50px auto 10px; 
+  max-width: 1200px;
+}
+
+.paddingBottom50px {
+  padding-bottom: 50px;
+}

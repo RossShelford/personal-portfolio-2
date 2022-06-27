@@ -1,0 +1,6 @@
+.projectsMainContainer {
+    display: flex;
+    flex-direction: column;
+    padding: 10vw;
+    max-width: 1000px;
+}
