@@ -1,8 +1,21 @@
-body {
+html, body {
   margin: 0;
   font-family: Poppins;
   -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  -moz-osx-font-smoothing: grayscale;  
+  
+  /* DISABLE SIDE SCROLLING */
+
+  /* max-width: 100%;
+  overflow-x: hidden; */
+}
+
+.subRoot{
+display: flex;
+flex-direction: column;
+margin: 0 auto;
+width: 70vw;
+max-width: 1000px;
 }
 
 h1 {
@@ -14,6 +27,7 @@ h1 {
   color: #2E2E39;
   margin: 0;
   padding: 0;
+  padding-top: 50px;
 }
 
 h3 {
@@ -43,26 +57,19 @@ h4 {
 
 body::-webkit-scrollbar
 {
-	width: 12px;
-	background-color: #F5F5F5;
+	width: 13px;
+	background-color: #f0efef;
 }
 
 body::-webkit-scrollbar-thumb
 {
 	border-radius: 10px;
-	background-color: #cacaca;
+	background-color: #aaaaaa;
 }
 
-.mainDivider {
-  border:none;
-  height: 20px;
- 	width: 90%;
-	height: 50px;
-	margin-top: 0;
-	border-bottom: 1px solid #bebebe;
-	box-shadow: 0px 20px 20px -20px rgb(190, 190, 190);
-  margin: -50px auto 10px; 
-  max-width: 1200px;
+::-webkit-scrollbar-thumb:hover
+{
+  background-color: #b9b9b9;
 }
 
 .paddingBottom50px {

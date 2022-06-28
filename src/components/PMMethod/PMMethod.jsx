@@ -2,7 +2,9 @@ import React from 'react'
 
 function ProjectManagmentMethodology() {
   return (
-    <section>ProjectManagmentMethodology</section>
+    <section>
+      <h1>Project Managment Methodology</h1>
+    </section>
   )
 }
 
