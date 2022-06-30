@@ -14,7 +14,7 @@ function Skills() {
         <div className={styles.logoContainer}>
           {data[0].map((item) => {
             return (
-              <a href={item.url} target="_blank" rel="noreferrer">
+              <a href={item.url} target="_blank" key={item.image} rel="noreferrer">
               <img className={styles.logoWide} key={item.image} src={item.image} alt='img'/>
               </a>
           )})}
@@ -23,7 +23,7 @@ function Skills() {
         <div className={styles.logoContainer}>
           {data[1].map((item) => {
             return (
-              <a href={item.url} target="_blank" rel="noreferrer">
+              <a href={item.url} target="_blank" key={item.image} rel="noreferrer">
               <img className={styles.logoWide} key={item.image} src={item.image} alt='img'/>
               </a>
           )})}
@@ -32,7 +32,7 @@ function Skills() {
         <div className={styles.logoContainer}>
           {data[2].map((item) => {
             return (
-              <a href={item.url} target="_blank" rel="noreferrer">
+              <a href={item.url} target="_blank" key={item.image} rel="noreferrer">
               <img className={styles.logoIcon} key={item.image} src={item.image} alt='img'/>
               </a>
           )})}

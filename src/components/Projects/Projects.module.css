@@ -3,3 +3,21 @@
     flex-direction: column;
     max-width: 1000px;
 }
+
+.carouselContainer {
+    padding-right: 96px;
+    display: flex;
+    gap: 24px;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    width: 300%;
+}
+
+.childContainer {
+    display: flex;
+    flex-direction: column;
+}
+
+video {
+    width: 100%;
+}

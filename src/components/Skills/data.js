@@ -2,6 +2,7 @@ import slack from './images/projectManagement/slack.png'
 import jira from './images/projectManagement/jira.png'
 import smartsheet from './images/projectManagement/smartsheet.png'
 import trello from './images/projectManagement/trello.png'
+import clickup from './images/projectManagement/clickup.svg'
 
 import figma from './images/design/figma.png'
 import adobe from './images/design/adobe.png'
@@ -21,6 +22,10 @@ const data = [
         {
             image: slack,
             url: 'https://www.slack.com',
+        },
+        {
+            image: clickup,
+            url: 'https://clickup.com/',
         },
         {
             image: jira,
