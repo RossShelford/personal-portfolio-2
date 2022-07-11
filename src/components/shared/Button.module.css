@@ -14,9 +14,32 @@
       text-align: center;
       transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
 }
+
+.buttonIconOnly {
+  display: flex;
+  gap: 10px;
+  background-color: transparent;
+  border: 2px solid #0E2947;
+  border-radius: 150px;
+  color: #000;
+  cursor: pointer;
+  font-family: poppins;
+  font-size: 16px;
+  font-weight: 600;
+  padding:10px;
+  margin: 6px;
+  text-align: center;
+  transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
+}
     
 .button:hover {
   color: #fff;
   background-color: #0E2947;
   box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
 }
+.buttonIconOnly:hover {
+  color: #fff;
+  background-color: #0E2947;
+  box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+}
+

@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 import styles from './Projects.module.css'
 import '../../index.css'
 import data from './data.js'
+import Button from '../shared/Button.jsx'
 
 function Projects() {
 
@@ -35,21 +36,15 @@ const updateIndex = (newIndex) => {
             </div>
         )})}
       </div>
-      
-      <button
-        onClick={()=>{
-          updateIndex(activeIndex + 1)
-        }}
-      >
-        Next
-      </button>
-      <button
-        onClick={()=>{
-          updateIndex(activeIndex - 1)
-        }}
-      >
-        Prev
-      </button>
+      <div className={styles.btnContainer}>
+        <Button iconOnly={true} onClick={()=>{ updateIndex(activeIndex - 1) }}>
+          <svg width="26px" height="26px" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 19l-7-7m0 0l7-7m-7 7h18" /></svg> 
+        </Button>
+        <Button iconOnly={true} onClick={()=>{ updateIndex(activeIndex + 1) }}>
+          <svg width="26px" height="26px" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" /></svg> 
+        </Button>
+      </div>
+
     </section>
   )
 }
