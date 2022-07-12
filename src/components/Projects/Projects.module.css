@@ -18,6 +18,14 @@
     padding-right: 24px;
 }
 
+.carouselItemActive {
+    transition: 0.2s ease;
+    display: flex;
+    flex-direction: column;
+    padding-right: 24px;
+    opacity: 0.25;
+}
+
 .carouselText {
     padding-top: 10px;
     padding-bottom: 10px;
