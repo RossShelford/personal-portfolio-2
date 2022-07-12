@@ -18,17 +18,24 @@
     padding-right: 24px;
 }
 
-.carouselItemActive {
+.carouselItemInactive {
     transition: 0.2s ease;
     display: flex;
     flex-direction: column;
     padding-right: 24px;
     opacity: 0.25;
+    pointer-events: none;
 }
 
 .carouselText {
-    padding-top: 10px;
-    padding-bottom: 10px;
+    width: fit-content;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.carouselText:hover {
+    cursor: pointer;
+    text-decoration-line: underline;
 }
 
 .btnContainer {
@@ -39,5 +46,6 @@
 video {
     width: 100%;
     max-width: 700px;
+    cursor: pointer;
 }
 

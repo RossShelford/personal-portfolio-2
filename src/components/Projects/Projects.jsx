@@ -30,14 +30,14 @@ const updateIndex = (newIndex) => {
         {data.map((item, index) => {
           return (
             <div 
-            className={(activeIndex !== index) ? styles.carouselItemActive : styles.carouselItem} 
+            className={(activeIndex !== index) ? styles.carouselItemInactive : styles.carouselItem} 
             key={item.title + ' item'} 
             style={{ 
               transform: `translateX(-${(activeIndex * 100)}% )` 
             }}
             >
               <video src={item.src} playsInline muted key={item.title + ' video'} autoPlay="autoplay" loop="loop"/>
-              <h3 className={styles.carouselText} key={item.title + ' title'}>{item.title}</h3>      
+              <h3 className={styles.carouselText} key={item.title + ' title'}>{item.title}</h3>
             </div>
         )})}
       </div>
