@@ -16,6 +16,7 @@ import js from './images/development/js.png'
 import react from './images/development/react.png'
 import three from './images/development/three.png'
 import tailwind from './images/development/tailwind.png'
+import cssmodule from './images/development/css-module.png'
 
 const data = [
     [
@@ -86,6 +87,10 @@ const data = [
         {
             image: tailwind,
             url: 'https://tailwindcss.com/',
+        },
+        {
+            image: cssmodule,
+            url: 'https://github.com/css-modules/css-modules',
         },
     ],
 ]

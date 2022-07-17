@@ -1,6 +1,7 @@
 import React from 'react'
 import Button from '../shared/Button.jsx'
 import styles from './Footer.module.css'
+import myCV from './CV-2022.pdf'
 
 
 function Footer() {
@@ -34,7 +35,7 @@ function Footer() {
         </section>
 
         <section className={styles.sectionBtn}>
-          <a href="https://pdfhost.io/v/iSiHhFsko_CV2022" target="_blank" rel="noreferrer">
+          <a href={myCV} target="_blank" rel="noreferrer">
             <Button>
               <svg width="26px" height="26px" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" /></svg> 
               Download CV 
