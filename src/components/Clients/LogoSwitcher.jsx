@@ -9,17 +9,18 @@ useEffect(()=>{
   if (id === randomNumber) {
    setLogoSwitch((p) => !p)
 }}, [id, randomNumber])
-
+ 
   return (
     <div className={styles.logoGroup}>
-      <div className={styles.absolute}>
-        <img src={logo1} alt='Logo' className={styles.logoStyles} style={{opacity: logoSwitch ? 1 : 0}}/>
+      <div className={styles.logos}>
+        <img src={logo1} alt='Logo' style={{opacity: logoSwitch ? 1 : 0}}/>
       </div>
-      <div className={styles.absolute}>
-        <img src={logo2} alt='Logo' className={styles.logoStyles} style={{opacity: logoSwitch ? 0 : 1}}/>
+      <div className={styles.logos}>
+        <img src={logo2} alt='Logo' style={{opacity: logoSwitch ? 0 : 1}}/>
       </div>
     </div>
   )
 }
+
 
 export default LogoSwitcher;

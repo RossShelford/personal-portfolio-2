@@ -3,6 +3,8 @@ html, body {
   font-family: Poppins;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;  
+  -webkit-user-select: none;
+  -webkit-touch-callout: none;
   
   /* DISABLE SIDE SCROLLING */
   max-width: 100%;
@@ -71,4 +73,8 @@ body::-webkit-scrollbar-thumb
 
 .paddingBottom50px {
   padding-bottom: 50px;
+}
+
+.pb-2 {
+  padding-bottom: 25px;
 }
