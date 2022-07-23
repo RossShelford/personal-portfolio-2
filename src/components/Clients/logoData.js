@@ -24,7 +24,7 @@ import THS from './clientLogos/THS-logo.png';
 import UKPM from './clientLogos/UKPM-logo.png';
 import Wembley from './clientLogos/Wembley-logo.png';
 
-const logoData = [
+const logoData = {
     AM,
     AN,
     ARS,
@@ -50,6 +50,6 @@ const logoData = [
     THS,
     UKPM,
     Wembley,
-]
+}
 
 export default logoData;    

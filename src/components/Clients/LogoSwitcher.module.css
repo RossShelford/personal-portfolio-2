@@ -1,0 +1,22 @@
+.logoGroup{
+    min-height: 200px;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.absolute{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.logoGroup > div > img{
+    /* bottom: 32%; */
+    position: absolute;
+    /* opacity: 1 !important; */
+    transition: opacity 0.2s ease-in-out;
+
+}

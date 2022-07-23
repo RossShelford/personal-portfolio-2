@@ -5,9 +5,8 @@ html, body {
   -moz-osx-font-smoothing: grayscale;  
   
   /* DISABLE SIDE SCROLLING */
-
-  /* max-width: 100%;
-  overflow-x: hidden; */
+  max-width: 100%;
+  overflow-x: hidden;
 }
 
 .subRoot{
@@ -52,8 +51,6 @@ h4 {
   margin: 0;
   padding: 0;
 }
-
-
 
 body::-webkit-scrollbar
 {
