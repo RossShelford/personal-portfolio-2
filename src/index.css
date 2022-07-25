@@ -31,6 +31,17 @@ h1 {
   padding-top: 50px;
 }
 
+h2 {
+  all: unset;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 2em;
+  color: #2E2E39;
+  margin: 0;
+  padding: 0;
+}
+
 h3 {
   all: unset;
   font-family: 'Poppins';

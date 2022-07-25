@@ -1,0 +1,68 @@
+.projectsMainContainer {
+    display: flex;
+    flex-direction: column;
+    max-width: 1000px;
+}
+
+.carouselContainer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    width: 600%;
+}
+
+.carouselItemContainer {
+    transition: 0.2s ease;
+    display: flex;
+    flex-direction: row;
+    animation: all 1s ease-in-out;
+    max-width: 750px;
+    margin: 20px;
+    padding-top: 30px;
+}
+
+@media (max-width: 685px) {
+    .carouselItemContainer {
+        flex-direction: column;
+    }
+  }
+
+.carouselTextContainer {
+    transition: 0.2s ease;
+    display: flex;
+    flex-direction: column;
+    padding-left: 30px;
+}
+
+@media (max-width: 685px) {
+    .carouselTextContainer {
+        padding-left: 0;
+    }
+  }
+
+.carouselItemInactive {
+    transition: 0.2s ease;
+    display: flex;
+    flex-direction: column;
+    opacity: 0;
+}
+
+.carouselItemText {
+    transition: 0.2s ease;
+    display: flex;
+    flex-direction: column;
+    opacity: 0;
+}
+
+.btnContainer {
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 50px;
+}
+
+.carouselItemImage {
+    justify-items: start;
+    object-fit: contain;
+    width: 100%;
+    max-width: 200px;
+}

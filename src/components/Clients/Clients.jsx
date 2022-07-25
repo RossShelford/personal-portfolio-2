@@ -7,7 +7,7 @@ function Clients() {
 
 const [randomNumber, setRandomNumber] = useState(0);
   
-const timeMS = 3000
+const timeMS = 2000
 
 useEffect(() => {
   const randomNumberInterval = setTimeout(() => {
