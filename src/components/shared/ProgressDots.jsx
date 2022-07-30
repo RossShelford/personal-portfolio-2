@@ -1,12 +1,12 @@
 import styles from './ProgressDots.module.css'
 
-function ProgressDots( {items, activeIndex} ) {
+function ProgressDots( {items, activeIndex, setActiveIndex} ) {
 
     return (
         <div className={styles.container}>
             {items.map((items) => {
                 return (
-                    <span key={items.id} className={(activeIndex === items.id) ? styles.selected : styles.dot}/>
+                    <span key={items.id} className={(activeIndex === items.id) ? styles.selected : styles.dot} onClick={()=>{console.log(setActiveIndex(items.id))}}/>
                 )
             })}
         </div>
@@ -14,8 +14,3 @@ function ProgressDots( {items, activeIndex} ) {
 }
 
 export default ProgressDots
-
-// Give data id- done
-// Pass in props | ActiveIndex
-// Loop through items .map
-// If Active index = items.id then set class to active
