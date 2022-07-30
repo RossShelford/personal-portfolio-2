@@ -4,7 +4,7 @@ function ProgressDots( {items, activeIndex} ) {
 
     return (
         <div className={styles.container}>
-            {items.map((items, ) => {
+            {items.map((items) => {
                 return (
                     <span key={items.id} className={(activeIndex === items.id) ? styles.selected : styles.dot}/>
                 )
