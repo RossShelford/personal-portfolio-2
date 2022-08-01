@@ -5,7 +5,7 @@ import Button from '../shared/Button.jsx'
 import data from './data.js'
 import ProgressDots from '../shared/ProgressDots.jsx'
 
-function ProjectManagmentMethodology() {
+function Methodology() {
 
 const [activeIndex, setActiveIndex] = useState(0);
 
@@ -20,8 +20,8 @@ const updateIndex = (newIndex) => {
 
   return (
     <section className={styles.projectsMainContainer}>
-      <h1>Project Management Methodology</h1>
-
+      <h1>Methodology</h1>
+      <h3>How I like to get things done</h3>
 
       {/* Caroursel */}
       <div className={styles.carouselContainer}>
@@ -61,4 +61,4 @@ const updateIndex = (newIndex) => {
   )
 }
 
-export default ProjectManagmentMethodology
+export default Methodology

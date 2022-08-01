@@ -3,6 +3,7 @@ import jira from './images/projectManagement/jira.png'
 import smartsheet from './images/projectManagement/smartsheet.png'
 import trello from './images/projectManagement/trello.png'
 import clickup from './images/projectManagement/clickup.svg'
+import xero from './images/projectManagement/xero.png'
 
 import figma from './images/design/figma.png'
 import adobe from './images/design/adobe.png'
@@ -39,6 +40,10 @@ const data = [
         {
             image: trello,
             url: 'https://trello.com',
+        },
+        {
+            image: xero,
+            url: 'https://xero.com',
         },
     ],
     [
