@@ -19,7 +19,7 @@ function Footer() {
           <li className={styles.underline} onClick={()=>{window.scrollTo({top:620,behavior:'smooth'})}}>Skills</li>
           <li className={styles.underline} onClick={()=>{window.scrollTo({top:1350,behavior:'smooth'})}}>Projects</li>
           <li className={styles.underline} onClick={()=>{window.scrollTo({top:2050,behavior:'smooth'})}}>Clients</li>
-          <li className={styles.underline} onClick={()=>{window.scrollTo({top:2750,behavior:'smooth'})}}>PM Method</li>
+          <li className={styles.underline} onClick={()=>{window.scrollTo({top:2750,behavior:'smooth'})}}>Method</li>
         </section>
 
         <section className={styles.textSectionContainer}>
