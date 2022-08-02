@@ -15,8 +15,11 @@ root.render(
         <Hero />
     <div className="subRoot"> 
         <Skills />
+        <hr className='mainDivider'/>
         <Projects />
+        <hr className='mainDivider'/>
         <Clients />
+        <hr className='mainDivider'/>
         <PMMethod />
     </div>
         <Footer />

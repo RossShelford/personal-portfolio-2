@@ -6,8 +6,10 @@ function Hero() {
   return (
     <section className={styles.heroMainContainer}>
       <Nav />
-      <h1 className={styles.heroText}>Hello, I'm Ross.</h1>
-      <h3 className={styles.heroSubText}>This is currently a work in progress!</h3>
+      <div className={styles.subContainer}>
+        <h1 className={styles.heroText}>Hello, I'm Ross.</h1>
+        <h3 className={styles.heroSubText}>This is currently a work in progress!</h3>
+      </div>
     </section>
   )
 }

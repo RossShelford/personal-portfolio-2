@@ -42,6 +42,7 @@
 .btnContainer {
     display: flex;
     flex-direction: row;
+    padding-bottom: 50px;
 }
 
 video {
