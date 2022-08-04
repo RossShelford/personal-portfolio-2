@@ -3,7 +3,8 @@ import styles from './Projects.module.css'
 import '../../index.css'
 import data from './data.js'
 import Button from '../shared/Button.jsx'
-import ProgressDots from '../shared/ProgressDots'
+import ProgressDots from '../shared/ProgressDots.jsx'
+import { Link } from 'react-router-dom'
 
 function Projects() {
 
@@ -19,29 +20,31 @@ const updateIndex = (newIndex) => {
   setActiveIndex(newIndex);
 }
 
-
-
   return (
     <section className={styles.projectsMainContainer}>
       <h1>Projects</h1>
       <h3 className='paddingBottom50px'>A few selected projects of my own work</h3>
 
       {/* Caroursel */}
-      <div className={styles.carouselContainer}>
-        {data.map((item, index) => {
-          return (
-            <div 
-            className={(activeIndex !== index) ? styles.carouselItemInactive : styles.carouselItem} 
-            key={item.title + ' item'} 
-            style={{ 
-              transform: `translateX(-${(activeIndex * 100)}% )` 
-            }}
-            >
-              <video src={item.src} playsInline muted alt={item.title + ' video'} autoPlay="autoplay" loop="loop"/>
-              <h3 className={styles.carouselText}>{item.title}</h3>
-            </div>
-          )})}
-      </div>
+        <div className={styles.carouselContainer}>
+          {data.map((item, index) => {
+            return (
+              <div 
+              className={(activeIndex !== index) ? styles.carouselItemInactive : styles.carouselItem} 
+              key={item.title + ' item'} 
+              style={{ 
+                transform: `translateX(-${(activeIndex * 100)}% )` 
+              }}
+              >
+                <Link to={item.link}>
+                  <video src={item.src} playsInline muted alt={item.title + ' video'} autoPlay="autoplay" loop="loop"/>
+                </Link>
+                <Link to={item.link}>
+                  <h3 className={styles.carouselText}>{item.title}</h3>
+                </Link>
+              </div>
+            )})}
+        </div>
 
       {/* Buttons */}
       <div className={styles.btnContainer}>

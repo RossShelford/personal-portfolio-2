@@ -1,7 +1,7 @@
 import React from 'react'
 import Button from '../shared/Button.jsx'
 import styles from './Footer.module.css'
-import myCV from './CV-2022.pdf'
+import myCV from './CV-RossShelford.pdf'
 
 
 function Footer() {

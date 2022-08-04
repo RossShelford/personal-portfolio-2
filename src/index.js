@@ -1,29 +1,22 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import Hero from './components/Hero/Hero.jsx'
-import Skills from './components/Skills/Skills.jsx'
-import Projects from './components/Projects/Projects.jsx'
-import Clients from'./components/Clients/Clients.jsx'
-import PMMethod from'./components/PMMethod/PMMethod.jsx'
-import Footer from'./components/Footer/Footer.jsx'
-
+import { BrowserRouter } from 'react-router-dom';
+import App from './App';
+import { Routes, Route } from 'react-router-dom';
+import PageImagineear from './components/Projects/Imagineear/PageImagineear.jsx'
+import PageNFT from './components/Projects/NFT/PageNFT.jsx'
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode >
-        <Hero />
-    <div className="subRoot"> 
-        <Skills />
-        <hr className='mainDivider'/>
-        <Projects />
-        <hr className='mainDivider'/>
-        <Clients />
-        <hr className='mainDivider'/>
-        <PMMethod />
-    </div>
-        <Footer />
-
+    <BrowserRouter>
+      <Routes>
+          <Route path="/" element={<App />}/>
+          <Route path="/Imagineear" element={<PageImagineear />}/>
+          <Route path="/NFT" element={<PageNFT />}/>
+      </Routes>
+    </BrowserRouter>
   </React.StrictMode>
 
   
