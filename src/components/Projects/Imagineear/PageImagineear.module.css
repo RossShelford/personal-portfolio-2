@@ -1,0 +1,87 @@
+.masterContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header{
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    background: #650092;
+    padding: 10%;
+}
+
+.headerLogo {
+    max-height: 8rem; 
+    user-select: none; 
+}
+
+.mainContainer{
+    display: flex; 
+    flex-direction: column; 
+    justify-items: center;
+    max-width: 1000px;
+}
+
+.textContainer{
+    padding: 10%;
+}
+
+.logoContainer {
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+    justify-items: center;
+    max-width: 1000px; 
+    user-select: none; 
+    padding: 0 3rem 3rem 3rem ;
+}
+
+.logoGrid {
+    display: grid; 
+    grid-template-columns: repeat(2, minmax(0, 1fr)); 
+    gap: 3rem;
+}
+
+@media (min-width: 640px) { 
+    .logoGrid {
+        grid-template-columns: repeat(4, minmax(0, 1fr)); 
+        gap: 4rem; 
+    }
+}
+
+.webVideoContainer {
+    padding-left: 2.5rem; 
+    padding-right: 2.5rem;
+    padding-top: 4rem;
+}
+
+.videoItem {
+    max-width: 1000px;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06); 
+}
+
+.drawingsContainer {
+    display: grid; 
+    grid-template-columns: repeat(1, minmax(0, 1fr)); 
+    gap: 1.5rem; 
+    padding: 2.5rem; 
+    padding-top: 4rem; 
+    flex-direction: column; 
+}
+
+@media (min-width: 820px) { 
+    .drawingsContainer {
+        grid-template-columns: repeat(2, minmax(0, 1fr)); 
+        gap: 2.5rem; 
+    }
+ }
+ 
+ 
+ .logoText {
+     padding: 50px;
+     color: rgb(170, 169, 169);
+     align-content: center;
+     white-space: nowrap;
+ }

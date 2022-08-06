@@ -1,4 +1,4 @@
-import Imagineear from './Imagineear/LogoMorph.mp4'
+import Imagineear from './Imagineear/assets/LogoMorph.mp4'
 import NFT from './NFT/myCatBaileyNFT-Showcase.mp4'
 
 const data = [

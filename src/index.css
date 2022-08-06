@@ -97,3 +97,7 @@ body::-webkit-scrollbar-thumb
   padding-bottom: 25px;
 }
 
+.p-10 {
+  padding: 50px;
+}
+
