@@ -32,7 +32,7 @@ const data = [
         image: test,
         title: 'Step 4 - Test',
         titleColor: 'rgb(81, 194, 237)',
-        copytext: 'Either myself or a quality assurance team should test functionality, detect bugs, and record wins and losses to incorperate them into the\u00A0schedule.',
+        copytext: 'Either myself or a quality assurance team should test functionality, detect bugs, and record wins and losses to incorporate them into the\u00A0schedule.',
     },
     {
         id: 4,

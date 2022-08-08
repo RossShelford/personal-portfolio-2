@@ -12,6 +12,7 @@
     flex-direction: column;
     align-items: center;
     max-width: 1000px; 
+    margin: 0 10%;
 }
 
 .heroText{
@@ -22,4 +23,11 @@
 .heroSubText{
     font-size: 2rem;
     color: #fff;
+}
+
+.highlightedText {
+    color: #82e9cf;
+    cursor: pointer;
+    text-decoration: underline;
+    font-weight: 300;
 }

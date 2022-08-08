@@ -11,10 +11,9 @@ function Footer() {
 
   return (
     <footer className={styles.footerMainContainer}>
-
       <div className={styles.subContentContainer}>
         <section className={styles.textSectionContainer}>
-          <ul className={styles.title} >Navigation</ul>
+          <ul className={styles.title}>Navigation</ul>
           <li className={styles.underline} onClick={()=>{window.scrollTo({top:0,behavior:'smooth'})}}>Home</li>
           <li className={styles.underline} onClick={()=>{window.scrollTo({top:620,behavior:'smooth'})}}>Skills</li>
           <li className={styles.underline} onClick={()=>{window.scrollTo({top:1350,behavior:'smooth'})}}>Projects</li>

@@ -40,7 +40,7 @@ const updateIndex = (newIndex) => {
                   <video src={item.src} playsInline muted alt={item.title + ' video'} autoPlay="autoplay" loop="loop"/>
                 </Link>
                 <Link to={item.link}>
-                  <h3 className={styles.carouselText}>{item.title}</h3>
+                  <h3 className={styles.carouselText}>{item.title}</h3> <svg height='20px' width='20px' fill="none" stroke="lightgrey" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" /></svg>
                 </Link>
               </div>
             )})}
