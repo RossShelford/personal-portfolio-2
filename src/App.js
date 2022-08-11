@@ -8,8 +8,9 @@ import Footer from'./components/Footer/Footer.jsx'
 
 
 function App() {
-  return (
-    <>
+
+  return (  
+  <>
     <Hero />
     <div className="subRoot"> 
       <Skills />
@@ -21,7 +22,7 @@ function App() {
       <PMMethod />
     </div>
     <Footer />
-    </>
+  </>
   )
 }
 
