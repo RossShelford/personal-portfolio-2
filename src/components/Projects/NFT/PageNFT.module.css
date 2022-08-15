@@ -1,0 +1,35 @@
+.masterContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.mainContainer{
+    display: flex; 
+    flex-direction: column; 
+    max-width: 1000px;
+    align-items: center;
+    margin: 5% 10% 5% 10%;
+}
+
+.headerImage{
+    height: 30vh;
+    width: 100vw;
+    object-fit: cover;
+    background: darkblue;
+}
+
+.clickable {
+    text-decoration: underline;
+    color: deeppink;
+    cursor: pointer;
+}
+
+.textContainer{
+    padding: 5% 10% 5% 10%;
+}
+
+.ac {
+    align-items: center;
+    justify-content: center;
+}

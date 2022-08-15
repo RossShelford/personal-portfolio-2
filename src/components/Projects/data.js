@@ -1,5 +1,5 @@
 import Imagineear from './Imagineear/assets/LogoMorph.mp4'
-import NFT from './NFT/myCatBaileyNFT-Showcase.mp4'
+import NFT from './NFT/assets/myCatBaileyNFT-Showcase.mp4'
 
 const data = [
     {
@@ -14,13 +14,6 @@ const data = [
         title: 'NFT Project',
         link: 'NFT',
     },
-    {
-        id: 2,
-        src: Imagineear,
-        title: 'Accordion',
-        link: 'Imagineear',
-    },
-
 ]
 
 export default data;
