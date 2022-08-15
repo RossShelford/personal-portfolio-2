@@ -3,7 +3,8 @@
     align-items: center;
     flex-direction: column;
     width: 100%;
-    height: 80vh;
+    height: 100%;
+    padding: 0 0 10% 0;
     background: radial-gradient(76.38% 76.38% at 50% 1.08%, #080922 0%, #030439 100%);
 }
 
