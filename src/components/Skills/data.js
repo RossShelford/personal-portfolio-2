@@ -22,32 +22,6 @@ import cssmodule from './images/development/css-module.png'
 const data = [
     [
         {
-            image: slack,
-            url: 'https://www.slack.com',
-        },
-        {
-            image: clickup,
-            url: 'https://clickup.com/',
-        },
-        {
-            image: jira,
-            url: 'https://www.atlassian.com/software/jira',
-        },
-        {
-            image: smartsheet,
-            url: 'https://www.smartsheet.com',
-        },
-        {
-            image: trello,
-            url: 'https://trello.com',
-        },
-        {
-            image: xero,
-            url: 'https://xero.com',
-        },
-    ],
-    [
-        {
             image: figma,
             url: 'https://figma.com',
         },
@@ -96,6 +70,32 @@ const data = [
         {
             image: cssmodule,
             url: 'https://github.com/css-modules/css-modules',
+        },
+    ],
+    [
+        {
+            image: slack,
+            url: 'https://www.slack.com',
+        },
+        {
+            image: clickup,
+            url: 'https://clickup.com/',
+        },
+        {
+            image: jira,
+            url: 'https://www.atlassian.com/software/jira',
+        },
+        {
+            image: smartsheet,
+            url: 'https://www.smartsheet.com',
+        },
+        {
+            image: trello,
+            url: 'https://trello.com',
+        },
+        {
+            image: xero,
+            url: 'https://xero.com',
         },
     ],
 ]

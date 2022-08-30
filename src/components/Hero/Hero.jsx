@@ -8,7 +8,7 @@ function Hero() {
       <Nav />
       <div className={styles.subContainer}>
         <h1 className={styles.heroText}>Hello, I'm Ross.</h1>
-      <h3 className={styles.heroSubText}>This is currently under construction. You can view the progress on my <a target='_blank' href='https://github.com/RossShelford' rel='noreferrer' className={styles.highlightedText}>GitHub</a> or view my design work on <a target='_blank' href='https://dribbble.com/RossShelford' rel='noreferrer' className={styles.highlightedText}>Dribbble</a>.</h3>
+        <h3 className={styles.heroSubText}>I am a design-minded front-end developer with extensive management experience focused on building beautiful interfaces & experiences.</h3>
       </div>
     </section>
   )
