@@ -1,6 +1,6 @@
 import slack from './images/projectManagement/slack.png'
 import jira from './images/projectManagement/jira.png'
-import smartsheet from './images/projectManagement/smartsheet.png'
+import monday from './images/projectManagement/monday.png'
 import trello from './images/projectManagement/trello.png'
 import clickup from './images/projectManagement/clickup.svg'
 import xero from './images/projectManagement/xero.png'
@@ -86,7 +86,7 @@ const data = [
             url: 'https://www.atlassian.com/software/jira',
         },
         {
-            image: smartsheet,
+            image: monday,
             url: 'https://www.smartsheet.com',
         },
         {
