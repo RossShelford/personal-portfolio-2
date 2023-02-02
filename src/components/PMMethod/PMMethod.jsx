@@ -12,8 +12,8 @@ const [activeIndex, setActiveIndex] = useState(0);
 const updateIndex = (newIndex) => {
   if (newIndex < 0) {
     newIndex = 0;
-  } else if (newIndex >= 6) {
-    newIndex = 5;
+  } else if (newIndex >= 5) {
+    newIndex = 4;
   }
   setActiveIndex(newIndex);
 }

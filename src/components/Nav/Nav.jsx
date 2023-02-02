@@ -6,11 +6,11 @@ function Nav() {
   return (
     <nav  className={styles.container}>
         <img src={logo} alt='Ross Shelford Logo'className={styles.logo}/>
-        <ul>
-            <li className={styles.navText} onClick={()=>{window.scrollTo({top:620,behavior:'smooth'})}}>Skills</li>
-            <li className={styles.navText} onClick={()=>{window.scrollTo({top:1350,behavior:'smooth'})}}>Projects</li>
-            <li className={styles.navText} onClick={()=>{window.scrollTo({top:2050,behavior:'smooth'})}}>Clients</li>
-            <li className={styles.navText} onClick={()=>{window.scrollTo({top:2750,behavior:'smooth'})}}>Method</li>
+        <ul className={styles.subContainer}>
+            <li className={styles.navText} onClick={()=>{window.scrollTo({top:620,behavior:'smooth'})}}>skills</li>
+            <li className={styles.navText} onClick={()=>{window.scrollTo({top:1350,behavior:'smooth'})}}>projects</li>
+            <li className={styles.navText} onClick={()=>{window.scrollTo({top:2050,behavior:'smooth'})}}>clients</li>
+            <li className={styles.navText} onClick={()=>{window.scrollTo({top:2750,behavior:'smooth'})}}>methods</li>
         </ul>
     </nav>
   )

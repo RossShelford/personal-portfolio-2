@@ -1,16 +1,15 @@
 
-ul {
+.subContainer {
     list-style-type: none;
     display: flex;
     gap: 5vw;
+    padding-left: 5vw;
 }
 
 .container {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
-    justify-content: space-between;
-    margin: 0 50px 0 10px;
 }
 
 .navText {

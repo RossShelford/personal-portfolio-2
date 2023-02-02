@@ -67,10 +67,6 @@ const data = [
             image: tailwind,
             url: 'https://tailwindcss.com/',
         },
-        {
-            image: cssmodule,
-            url: 'https://github.com/css-modules/css-modules',
-        },
     ],
     [
         {
