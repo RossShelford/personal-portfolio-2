@@ -13,12 +13,12 @@
 }
 
 .navText {
-    color: #fff;
+    color: #242424;
     background: none;
 }
 
 .navText:hover {
-    color: #82e9cf;
+    color: #33c5a1;
     text-decoration-line: underline;
     text-underline-offset: 2px;
 }
