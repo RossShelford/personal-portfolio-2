@@ -1,0 +1,46 @@
+.textContainer{
+    padding: 10%;
+}
+
+.typeIcon{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 20px;
+    height: 30px;
+}
+
+.workTypeContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 20px;
+    
+    width: 155px;
+    height: 150px;
+}
+
+.headerSubContainer{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 10% 0 10% 0;
+}
+
+@media only screen and (max-width: 580px) {
+    .headerSubContainer{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: flex-start;
+        padding: 10% 0 10% 0;
+    }
+}
+
+.dividerLine {
+    width: 100%;
+    border-top: solid #c5c5c5;
+    border-width: 1px 0px 0px 0px;
+}

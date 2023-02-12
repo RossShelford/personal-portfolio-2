@@ -13,6 +13,7 @@ import MacTopBar from '../../shared/MacTopBar';
 import styles from './PageImagineear.module.css';
 import { useState, useEffect } from 'react'
 import ProjectLoader from '../../LoaderPages/ProjectLoader';
+import CaseStudyHeader from '../GeneralComponents/CaseStudyHeader';
 
 
 
@@ -41,19 +42,26 @@ function PageImagineear() {
         
         <div className={styles.masterContainer}>
           <div className={styles.mainContainer}>
-            <div className={styles.textContainer}>
-              <h2>Brand identity to reflect the evolution and rapid growth of the business</h2>
-              <p>
-                "In order to move away from a simple rounded look, a new stylish font was introduced to harden up the text and reflect the challenges of the day.  The colour palette was extended to include teal, yellow, and magenta options, further asserting the competitive edge of what has become widely known as ‘the Imagineear purple’, as always accompanied by a bolder green – a far cry from the muted green over a decade earlier.
-                The work was completed by capitalising the ‘I’ of Imagineear, signifying solid growth and a reaching of maturity, and now, armed with this capital ‘I’, Imagineear is ready to take on the post-pandemic world."
-              </p>
-            </div>
+
+            <CaseStudyHeader 
+              title='Brand identity to reflect the evolution and rapid growth of the business' 
+              body='In order to move away from a simple rounded look, a new stylish font was introduced to harden up the text and reflect the challenges of the day.  The colour palette was extended to include teal, yellow, and magenta options, further asserting the competitive edge of what has become widely known as ‘the Imagineear purple’, as always accompanied by a bolder green – a far cry from the muted green over a decade earlier. The work was completed by capitalising the ‘I’ of Imagineear, signifying solid growth and a reaching of maturity, and now, armed with this capital ‘I’, Imagineear is ready to take on the post-pandemic world.'
+              buttonText='Visit Imagineear website'
+            />
+
             <div className={styles.webVideoContainer}>
               <MacTopBar text={'www.imagineear.com'}/>
               <video playsInline src={ImagineearWebVid} loop="loop" className={styles.videoItem} autoplay="autoplay"></video>
             </div>
+            
+            <div className={styles.drawingsContainer}>
+              <img src={Drawings1} width='100%' alt="Drawings Concepts 1"/>
+              <img src={Drawings2} width='100%' alt="Drawings Concepts 2"/>
+              <img src={Drawings3} width='100%' alt="Drawings Concepts 3"/>
+              <img src={Drawings4} width='100%' alt="Drawings Concepts 4"/>
+            </div>
+
             <div className={styles.logoContainer}>
-              <h3 className={styles.logoText}>Alternative Logos</h3>
               <div className={styles.logoGrid}>
                 <img src={logo1} width='120px' alt="Logo Concept 1"/>
                 <img src={logo2} width='120px' alt="Logo Concept 2"/>
@@ -61,12 +69,7 @@ function PageImagineear() {
                 <img src={logo4} width='120px' alt="Logo Concept 4"/>
               </div> 
             </div>
-            <div className={styles.drawingsContainer}>
-              <img src={Drawings1} width='100%' alt="Drawings Concepts 1"/>
-              <img src={Drawings2} width='100%' alt="Drawings Concepts 2"/>
-              <img src={Drawings3} width='100%' alt="Drawings Concepts 3"/>
-              <img src={Drawings4} width='100%' alt="Drawings Concepts 4"/>
-            </div>
+
           </div>
         </div>
         {topScroll()}
