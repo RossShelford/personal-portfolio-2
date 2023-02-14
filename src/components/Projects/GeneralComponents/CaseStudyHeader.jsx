@@ -1,35 +1,25 @@
 import React from 'react'
 import styles from './CaseStudyHeader.module.css'
-
-import webIcon from './icons/webicon.svg'
-import brandingIcon from './icons/format_paint.svg'
-import animationIcon from './icons/anim.svg'
-
 import Button from '../../shared/Button'
 
-function CaseStudyHeader( {body, title, buttonText,} ) {
+function CaseStudyHeader( {body, title, buttonText, badgeArray} ) {
   return (
     <div className={styles.textContainer}>
         <h2> {title} </h2>
         <p> {body} </p>
 
 <div className={styles.headerSubContainer}>
+
+    
         <div className={styles.workTypeContainer}>
-            <div className={styles.typeIcon}>
-                <img src={brandingIcon} alt={'Web Icon'} />
-                <p>Branding</p>
-            </div>
-
-            <div className={styles.typeIcon}>
-                <img src={webIcon} alt={'Web Icon'} />
-                <p>Web design</p>
-            </div>
-
-            <div className={styles.typeIcon}>
-                <img src={animationIcon} alt={'Animation Icon'} />
-                <p>Animation</p>
-            </div>
+            {badgeArray.map(( badge ) => ( 
+                <div className={styles.typeIcon}>
+                    <img src={badge.icon} alt={badge.alt} />
+                    <p>{badge.text}</p>
+                </div>
+            ))} 
         </div>
+
         <a href='https://www.imagineear.com' rel="noreferrer" target='_blank'>
             <Button >
                 {buttonText}
