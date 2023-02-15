@@ -11,7 +11,7 @@ import CaseStudyFooter from '../GeneralComponents/CaseStudyFooter'
 import baileyPic from './assets/BaileyTheCat.png'
 import illustration from './assets/palette.svg'
 import terminal from './assets/terminal.svg'
-
+import ProjectNav from '../../Nav/ProjectNav.jsx'
 
 const badgeData = [
   {
@@ -45,6 +45,10 @@ function PageNFT() {
       <ProjectLoader/>
       :
     <div className={styles.masterContainer}>
+      <div className={styles.navWrapper}>
+      <ProjectNav />
+
+      </div>
         <img className={styles.headerImage} src={NFTslide} alt='header'/>
       <div className={styles.mainContainer}>
       <CaseStudyHeader 
