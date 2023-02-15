@@ -18,6 +18,7 @@ import archetype from './assets/Archetype.svg'
 import webIcon from '../GeneralComponents/icons/webicon.svg'
 import brandingIcon from '../GeneralComponents/icons/format_paint.svg'
 import animationIcon from '../GeneralComponents/icons/anim.svg'
+import ProjectNav from '../../Nav/ProjectNav';
 
 
 const badgeData = [
@@ -56,34 +57,34 @@ function PageImagineear() {
       loading ? 
       <ProjectLoader/>
       :
-      <div>
-        <div className={styles.header}>
-          <img src={logo} alt="Imagineear" className={styles.headerLogo}/>
-        </div>
-        
         <div className={styles.masterContainer}>
+          <div>
+          <ProjectNav/>
+
           <div className={styles.mainContainer}>
+          <div className={styles.header}>
+              <img src={logo} alt="Imagineear" className={styles.headerLogo}/>
+          </div>
 
             <CaseStudyHeader 
               title='Brand identity to reflect the evolution and rapid growth of the business' 
               body='In order to move away from a simple rounded look, a new stylish font was introduced to harden up the text and reflect the challenges of the day.  The colour palette was extended to include teal, yellow, and magenta options, further asserting the competitive edge of what has become widely known as ‘the Imagineear purple’, as always accompanied by a bolder green – a far cry from the muted green over a decade earlier. The work was completed by capitalising the ‘I’ of Imagineear, signifying solid growth and a reaching of maturity, and now, armed with this capital ‘I’, Imagineear is ready to take on the post-pandemic world.'
-              buttonText='Visit Imagineear website'
+              buttonText="Visit Imagineear's website"
               badgeArray={badgeData}
             />
-
             <img src={archetype} alt='Achetype creator' className={styles.Archetype}/>
 
 
-            <div className={styles.webContainer}>
-              <div className={styles.webVideoContainer}>
-                <div className={styles.textContainer}>
-                  <h3 className={styles.title}>Website Concept</h3>
-                  <p>The website concept was built with a basic component style guide of buttons, typography, colors, and layout.</p>
+              <div className={styles.webContainer}>
+                <div className={styles.webVideoContainer}>
+                  <div className={styles.textContainer}>
+                    <h3 className={styles.title}>Website Concept</h3>
+                    <p>The website concept was built with a basic component style guide of buttons, typography, colors, and layout.</p>
+                  </div>
+                  <MacTopBar text={'www.imagineear.com'}/>
+                  <video playsInline src={ImagineearWebVid} loop="loop" className={styles.videoItem} autoplay="autoplay"></video>
                 </div>
-                <MacTopBar text={'www.imagineear.com'}/>
-                <video playsInline src={ImagineearWebVid} loop="loop" className={styles.videoItem} autoplay="autoplay"></video>
               </div>
-            </div>
             
             <div className={styles.textContainerLogo}>
                   <h3 className={styles.titleLogo}>Logo Concepts</h3>
@@ -116,6 +117,7 @@ function PageImagineear() {
             </div>
 
           </div>
+
         </div>
         {topScroll()}
       </div>
