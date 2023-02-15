@@ -12,7 +12,7 @@ function ProjectNav() {
             <img src={logo} alt='Ross Shelford Logo'className={styles.logo}/>
             </Link>
             <Link to='/'>
-            <li className={styles.navText}>return to home</li>
+            <li className={styles.navText}>home</li>
             </Link>
         </div>
 

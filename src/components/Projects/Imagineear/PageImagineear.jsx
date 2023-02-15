@@ -19,6 +19,7 @@ import webIcon from '../GeneralComponents/icons/webicon.svg'
 import brandingIcon from '../GeneralComponents/icons/format_paint.svg'
 import animationIcon from '../GeneralComponents/icons/anim.svg'
 import ProjectNav from '../../Nav/ProjectNav';
+import CaseStudyFooter from '../GeneralComponents/CaseStudyFooter';
 
 
 const badgeData = [
@@ -62,9 +63,9 @@ function PageImagineear() {
           <ProjectNav/>
 
           <div className={styles.mainContainer}>
-          <div className={styles.header}>
-              <img src={logo} alt="Imagineear" className={styles.headerLogo}/>
-          </div>
+            <div className={styles.header}>
+                <img src={logo} alt="Imagineear" className={styles.headerLogo}/>
+            </div>
 
             <CaseStudyHeader 
               title='Brand identity to reflect the evolution and rapid growth of the business' 
@@ -117,7 +118,11 @@ function PageImagineear() {
             </div>
 
           </div>
-
+        </div>
+        <div className={styles.footerWrapper}>
+          <div className={styles.footerContent}>
+            <CaseStudyFooter/>
+          </div>
         </div>
         {topScroll()}
       </div>

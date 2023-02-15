@@ -1,0 +1,49 @@
+.footerMainContainer {
+    background-color: #82e9cf;
+    padding: 1% 2% 1% 2%;
+    height: auto;
+}
+
+.subContentContainer {
+    padding: 2%;
+    display: flex;
+    justify-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+.returnHomeContainer {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+    margin-right: 30px;
+}
+
+/* Buttons Container */
+
+.sectionBtn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+/* Copyright Bottom Bar */
+
+.bottomBarContent { 
+    padding: 7px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.bottomBarLine {
+    border-top: solid #8F8F8F;
+    border-width: 1px 0px 0px 0px;
+}
+
+.bottomBarText{
+    color: #686868;
+    font-size: small;
+}
