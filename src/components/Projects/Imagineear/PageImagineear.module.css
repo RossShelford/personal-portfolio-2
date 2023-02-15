@@ -9,12 +9,16 @@
     justify-content: center; 
     align-items: center; 
     background: #650092;
-    padding: 10%;
+    border-radius: 10px;
+    height: 15rem;
+    width: 100vw;
 }
 
 .headerLogo {
     max-height: 8rem; 
     user-select: none; 
+    max-width: 30rem;
+    padding: 10%;
 }
 
 .mainContainer{
