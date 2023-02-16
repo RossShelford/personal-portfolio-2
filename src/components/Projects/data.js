@@ -1,5 +1,6 @@
 import Imagineear from './Imagineear/assets/LogoMorph.mp4'
 import NFT from './NFT/assets/myCatBaileyNFT-Showcase.mp4'
+import Pinpoint from './Pinpoint/assets/pp-showcase.png'
 
 const data = [
     {
@@ -10,6 +11,13 @@ const data = [
     },
     {
         id: 1,
+        src: Pinpoint,
+        title: 'Pinpoint Works Design System',
+        link: 'Pinpoint',
+        type: 'image',
+    },
+    {
+        id: 2,
         src: NFT,
         title: 'NFT Project',
         link: 'NFT',

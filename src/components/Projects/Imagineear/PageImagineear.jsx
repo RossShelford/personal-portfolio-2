@@ -72,6 +72,8 @@ function PageImagineear() {
               body='In order to move away from a simple rounded look, a new stylish font was introduced to harden up the text and reflect the challenges of the day.  The colour palette was extended to include teal, yellow, and magenta options, further asserting the competitive edge of what has become widely known as ‘the Imagineear purple’, as always accompanied by a bolder green – a far cry from the muted green over a decade earlier. The work was completed by capitalising the ‘I’ of Imagineear, signifying solid growth and a reaching of maturity, and now, armed with this capital ‘I’, Imagineear is ready to take on the post-pandemic world.'
               buttonText="Visit Imagineear's website"
               badgeArray={badgeData}
+              showButton={true}
+              buttonLink={'https://www.imagineear.com'}
             />
             <img src={archetype} alt='Achetype creator' className={styles.Archetype}/>
 

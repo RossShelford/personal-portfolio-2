@@ -6,6 +6,7 @@ import App from './App';
 import { Routes, Route } from 'react-router-dom';
 import PageImagineear from './components/Projects/Imagineear/PageImagineear.jsx'
 import PageNFT from './components/Projects/NFT/PageNFT.jsx'
+import PagePinpoint from './components/Projects/Pinpoint/PagePinpoint';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -15,6 +16,7 @@ root.render(
           <Route path="/" element={<App />}/>
           <Route path="/Imagineear" element={<PageImagineear />}/>
           <Route path="/NFT" element={<PageNFT />}/>
+          <Route path="/Pinpoint" element={<PagePinpoint />}/>
       </Routes>
     </BrowserRouter>
   </React.StrictMode>

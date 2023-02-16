@@ -1,0 +1,46 @@
+.mainContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.subContainer{
+    display: flex; 
+    flex-direction: column; 
+    justify-items: center;
+    align-items: center;
+    max-width: 1000px;
+}
+
+.headerImage{
+    height: 20rem;
+    width: 100vw;
+    object-fit: cover;
+    background: darkblue;
+}
+
+.textContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 620px;
+    text-align: center;
+    color: rgb(29, 29, 29);
+    padding: 5% 10%;
+ }
+
+ .title {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+    color: rgb(29, 29, 29);
+    text-align: center;
+ }
+
+ .images{
+    max-width: 1000px;
+    width: 90%;
+    height: 100%;
+ }
